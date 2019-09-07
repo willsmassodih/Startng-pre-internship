@@ -124,13 +124,13 @@
                   <center><h1 style= "color: blue;">Contact Form</h1></center>
                   <div class="box2"><form name="contactForm" onsubmit="return validate()"> 
                     <label for="fname">Full name</label>
-                    <input type="text" name="Fullname" placeholder="your name...">
+                    <input type="text" name="Fullname" minlength="4" placeholder="your name...">
                     <label for="email">Email</label>
                     <input type="email" name= "Email" placeholder="Type your email...">
                     <label for="title">Title</label>
                     <input type="text" name= "Title">
                     <label for="message">Message</label>
-                    <textarea name="Message" required placeholder="write a message..."></textarea>
+                    <textarea name="Message" minlength="20" placeholder="write a message..."></textarea>
                     <button type="submit" name="submit">Submit</button></form></div></div>
             
         </body>
